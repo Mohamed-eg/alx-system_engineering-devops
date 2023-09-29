@@ -1,2 +1,2 @@
-#!/bin/ba
-echo > hello
+#!/bin/bash
+#touch  hello
