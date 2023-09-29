@@ -1,5 +1,2 @@
 #!/bin/bash
-source_file="olleh"
-target_file="hello"
-permiition==$(stat -c %a "$source_file")
-chmod "permiition" "target_file"
+chmod --reference=olleh hello
